@@ -1,7 +1,6 @@
 #select random number
 import random
 num = random.randint(1,10000)
-print(num)
 
 #accept guess, decide if win or loss
 run = True
