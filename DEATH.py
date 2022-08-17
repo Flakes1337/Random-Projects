@@ -25,7 +25,7 @@ print("      | ####### |     .  ||")
 print("       \ ##### /     /| < _>")
 print("        \ ### /     / |/< _>")
 print("      ..''   ''... /  | < _>")
-print("    .'            /   | /||             Hello fool.")
+print("    .'            /   | /||             Hello, fool.")
 print("    '                 |/ ||        I am the grim reaper.")
 print("    |   |     '..     |  ||")
 print("    |   |     |  '...''  ||     Today I will be determining")
@@ -62,20 +62,30 @@ for c in bar:
     sys.stdout.write(c)
     sys.stdout.flush()
     
-#jokey joke
-typingPrint("\nOh? \nThat cant be right.... \nSucks to be you lol.")
+#ask the poor sap if they really want to know
+run = True
+while run:
+    typingPrint("\nOh? \nThat cant be right.... \nSucks to be you lol.\n")
+    question = int(input("Are you sure you want to know?\n1=Yes\n2=No\n-----\nYes or No?: "))
+        
+        if question == int(1):
+        continue
+        
+    else run = False
+   
 
 #Results
 print("   _                   _")
 print(" _( )                 ( )_")
 print("(_, |      __ __      | ,_)")
-print("   \'\    /  ^  \    /'/")
-print("    '\'\,/\      \,/'/'")
+print("   \'\    /  ^   \    /'/")
+print("    '\'\,/\       \,/'/'")
 print("      '\| []   [] |/'")
 print("        (_  /^\  _)")
 print("          \  ~  /")
-print("          /HHHHH\\")
+print("          /XXXXX\\")
 print("        /'/{^^^}\'\\")
 print("    _,/'/'  ^^^  '\'\,_")
 print("   (_, |           | ,_)")
 print("     (_)           (_)")
+print("-----------------------------")
