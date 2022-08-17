@@ -1,7 +1,13 @@
 #welcome screen
-print("\n | \n | Welcome to rock paper scissors! \n | \n |")
-
-
+print("|--------------------------------|")
+print("|       Hello and welcome        |")
+print("|                                |")
+print("|  This is Rock Paper Scissors   |")
+print("|    created by Brandon Shutt    |")
+print("|                                |")
+print("|   **  I hope you enjoy!!  **   |")
+print("|--------------------------------|")
+print("                                  ")
 
 #computer picks random move
 import random
