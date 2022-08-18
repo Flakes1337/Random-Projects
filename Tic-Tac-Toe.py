@@ -1,3 +1,15 @@
+#welcome screen
+print("|--------------------------------|")
+print("|       Hello and welcome!       |")
+print("|                                |")
+print("|      This is Tic Tac Toe       |")
+print("|    created by Brandon Shutt    |")
+print("|                                |")
+print("|       I hope you enjoy!        |")
+print("|--------------------------------|")
+print("                                  ")
+
+
 import random
 board = ["-", "-", "-",
         "-", "-", "-",
