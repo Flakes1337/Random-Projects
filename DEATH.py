@@ -176,7 +176,7 @@ print("        /'/{^^^}\'\\")
 print("    _,/'/'  ^^^  '\'\,_")
 print("   (_, |           | ,_)")
 print("     (_)           (_)")
-print("------------------------------\n")
+print("------------------------------------------")
 
 #pick death year
 Deathlist = int(year) + int(gender)
@@ -192,5 +192,5 @@ Deathday = random.choice(Daylist)
 
 print(name + ", it seems that your fate is sealed.")
 print("Your life will end on the " + Deathday + " of " + Deathmonth + " in the year " + Deathyear + ".")
-print("-------------------------------------------")
+print("------------------------------------------")
 print("Enjoy the time you have left, have a nice day!")
