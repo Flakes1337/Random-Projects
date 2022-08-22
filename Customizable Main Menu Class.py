@@ -1,10 +1,7 @@
 """
 This menu system is fully customizable.
-
 just copy the First Menu block or Second Menu block, change it up however you want.
-
 add your new option block to the main menu options so the new sub menu can be selected
-
 test it out to see how it works first!
 """
 
@@ -16,8 +13,8 @@ class menu():
             print()
             print(" --- Main Menu --- ")
             print("[0] Exit Menu")
-            print("[2] View First Menu")
-            print("[3] View Second Menu")
+            print("[1] View First Menu")
+            print("[2] View Second Menu")
         menu_main_input = ("")
         menu_main_loop = True
         while menu_main_loop:
@@ -54,7 +51,7 @@ class menu():
             elif menu_first_input == 2:
                 print("Option 2 Selected")
             elif menu_first_input == 3:
-                print(Option 3 Selected")
+                print("Option 3 Selected")
             else:
                 print("Invalid Input")
 
@@ -79,5 +76,7 @@ class menu():
                 print("Option 2 Selected.")
             else:
                 print("Invalid Input")
-                      
-                      
+
+
+menu.main()
+print("Main Menu has exited")
