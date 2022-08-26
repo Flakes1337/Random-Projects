@@ -1,4 +1,3 @@
-#imports
 import sys
 import time
 import requests
@@ -179,7 +178,7 @@ print("     (_)           (_)")
 print("------------------------------------------")
 
 #pick death year
-Deathlist = int(year) + int(gender)
+Deathlist = int(year) + int(gender) + random.randint(1, 3)
 Deathyear = (str(Deathlist))
 
 #pick random month
@@ -190,7 +189,14 @@ Deathmonth = random.choice(Monthlist)
 Daylist = ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th", "11th", "12th", "13th", "14th", "15th", "16th", "17th", "18th", "19th", "20th", "21st", "22nd", "23rd", "24th", "25th", "26th", "27th", "28th", "29th", "30th"]
 Deathday = random.choice(Daylist)
 
+#pick random time of day
+random_hour = random.randint(1, 12)
+random_minute = random.randint(1, 59)
+am_pm = ["am", "pm"]
+random_ampm = random.choice(am_pm)
+Deathtime = (f"{random_hour}:{random_minute}{random_ampm}")
+
 print(name + ", it seems that your fate is sealed.")
-print("Your life will end on the " + Deathday + " of " + Deathmonth + " in the year " + Deathyear + ".")
+print(f"Your life will end at {Deathtime}, on {Deathmonth} {Deathday} {Deathyear}.")
 print("------------------------------------------")
 print("Enjoy the time you have left, have a nice day!")
