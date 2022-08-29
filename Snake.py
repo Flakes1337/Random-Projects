@@ -1,6 +1,15 @@
 from tkinter import *
 import random
 
+""""
+This was made by HEAVILY following a tutorial
+I really dont understand a lot of the code here
+i just wanted something cool and easy to follow along
+to see what making a program with UI was like
+
+I hope you enjoy!
+"""
+
 GAME_WIDTH = 750
 GAME_HEIGHT = 750
 SPEED = 75
